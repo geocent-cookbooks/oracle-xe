@@ -10,7 +10,7 @@ remote_url = node['oracle-xe']['remote_url']
 response_file = node['oracle-xe']['response_file']
 log_file = node['oracle-xe']['log_file']
 
-if File.exists?("C:\Oracle\OracleXE")
+if File.exists?("C:\\Oracle\\OracleXE")
   Chef::Log.info("OracleXE install dir already exists.....not installing OracleXE")
 else
     template response_file do
