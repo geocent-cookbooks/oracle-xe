@@ -1,0 +1,1 @@
+cookbook 'oracle-xe', :path => '/Users/tylersanders/Documents/dev/active/exosphere-chef-repo/cookbooks/oracle-xe'
