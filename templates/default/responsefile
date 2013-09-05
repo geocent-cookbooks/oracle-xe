@@ -1,5 +1,0 @@
-<%= node['oracle-xe']['http_port'] %>
-<%= node['oracle-xe']['listener_port'] %>
-<%= node['oracle-xe']['admin_password'] %>
-<%= node['oracle-xe']['admin_password'] %>
-<%= node['oracle-xe']['start_on_boot'] %>
